@@ -8,12 +8,12 @@ const questions = [
     {
       question: 'How would you spend your time?',
       answers: ['Strategizing', 'Learning', 'Creating Art', 'Fighting'],
-      god: ['Athena', 'Apollo', 'Hephaestus', 'Ares']
+      god: ['Athena', 'Apollo', 'Hercules', 'Ares']
     },
     {
       question: 'What element calls to you?',
       answers: ['Fire', 'Water', 'Earth', 'Air'],
-      god: ['Hephaestus', 'Poseidon', 'Gaia', 'Zeus']
+      god: ['Hercules', 'Poseidon', 'Hades', 'Zeus']
     }
   ];
   
