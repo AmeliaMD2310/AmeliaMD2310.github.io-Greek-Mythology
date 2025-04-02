@@ -1,0 +1,145 @@
+/* General Body Styles */ 
+body {
+    background: url('background1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Papyrus', fantasy;
+    color: #3b2716;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: rgba(139, 69, 19, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Title */
+h1 {
+    font-size: 36px;
+    color: #f4e1c6;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Make the list items flex */
+    justify-content: center; /* Center the items */
+    align-items: center; /* Align the items vertically */
+}
+
+nav ul li {
+    margin: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #f4e1c6;
+    padding: 10px 15px;
+    background: rgba(165, 42, 42, 0.7);
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block; /* Ensures the element behaves like a block to take up the full width/height of the link */
+}
+
+nav ul li a:hover {
+    background: rgba(165, 42, 42, 1);
+    transform: scale(1.1); /* Slightly enlarge the item on hover */
+}
+
+/* Hover effect for list items */
+nav ul li:hover {
+    transform: scale(1.1); /* Slightly enlarge the entire list item */
+}
+
+/* Additional Styling to Adjust Spacing Between Navigation Links */
+nav ul li {
+    margin: 15px;
+}
+
+/* Section Styles */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(244, 228, 200, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+/* Character Profiles Section */
+.character-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Mythological Stories Section */
+.myth-stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Character and Story Card */
+.character-card, .story-card {
+    background: rgba(139, 69, 19, 0.8); 
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+
+/* Image Styling within Character and Story Cards */
+.character-card img, .story-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Hover Effect for Cards */
+.character-card:hover, .story-card:hover {
+    transform: scale(1.05);
+}
+
+/* Additional Story Card Styling */
+.story-card h3 {
+    font-size: 24px;
+    color: #f4e1c6;
+    margin-bottom: 15px;
+}
+
+/* Story Card Only */
+.story-card {
+    width: 320px; /* Adjust the width for story cards only */
+}
+
+.story-card p {
+    font-size: 16px;
+    color: #f4e1c6;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
+
+
+
+
